@@ -1,29 +1,57 @@
 # UG-Engineering-Projects
 
-## 2nd yr:
- ### 1. [Cardio Track](https://github.com/milanbhat1/low-power-ecg-circuit) -2025
- This project documents the design, simulation, and hardware implementation of a low-power analog ECG (Electrocardiogram) signal acquisition circuit. The system captures heart activity and displays key waveform features such as P-waves, QRS complexes, and T-waves with low noise and high clarity.
-
- ### 2. [IoT-Based Smart Door Security & Monitoring System (ESP8266 + Web UI + Telegram Alerts)](https://github.com/milanbhat1/iot-door-security-system) -2025
-  This IoT project that implements password-protected door access with real-time alerts and presence detection using an ESP8266.
-
- ### 3. [FIFO Block (Verilog HDL)](https://github.com/milanbhat1/FIFO) -2025
-  This project presents the design, implementation, and simulation of a synchronous FIFO using Verilog HDL. It focuses on simple, hazard-free data access and reliable synchronization between write and read operations, using a single clock signal and an enable (en) signal to determine the operation mode.
-
- ### 4. [Electronic Organ Using Transistor](https://github.com/milanbhat1/Electronic_Organ) -2024
-  This project demonstrates the design and implementation of a compact, cost-effective electronic organ using basic components such as transistors, resistors, and capacitors. When a key is pressed, a specific frequency is generated to simulate a musical note, based on the Indian classical music scale (Sa, Re, Ga, Ma, Pa, Dha, Ni).
-
- ### 5. [Air Quality Monitor-STM32](https://github.com/milanbhat1/AirQualityMonitor-STM32) -2025
-  This project presents a compact and cost-effective air quality monitoring device that detects gas concentration using the MQ-135 sensor and displays values in PPM (Parts Per Million) on an OLED screen. The STM32F103C8T6 (Blue Pill) microcontroller reads analog sensor data, processes it through ADC, and displays it in real-time using I2C OLED interfacing.
-
- ### 6. [Battery Management System using STM32](https://github.com/milanbhat1/BatteryManagementSystem-STM32) -2025
-  This project monitors battery voltage and current, calculates State of Charge (SOC), and displays real-time values on an OLED display. Audible and visual alerts are triggered during low SOC or abnormal current conditions.
+This repository consolidates all my **undergraduate engineering projects**, spanning analog and digital circuit design, embedded systems, IoT, computer vision, and hardware–software co-design. Each project includes documentation, code, simulations, and implementation details.
 
 ---
 
-## 1st yr:
-  ### 1. [Plastic Segregation with Computer Vision](https://github.com/milanbhat1/plastic-waste-detection-opencv) -2024
-  This project presents a computer vision-based system using YOLO, OpenCV, and Python to automate real-time plastic waste detection and classification.
+## Second Year Projects
 
-   ### 2. [PARK-IT](https://github.com/milanbhat1/PARK-IT) -2023
-  We designed and developed PARK-IT, a smart parking management application that simplifies the parking experience. Using Figma, we created an intuitive UI/UX that enables users to locate, reserve, and navigate to available parking spots in real time. Our design focuses on improving user convenience through live availability updates, smooth check-in/check-out flow, and integrated digital payment options.
+### 1. Cardio Track – Low Power ECG Signal Acquisition System (2025)
+🔗 https://github.com/milanbhat1/low-power-ecg-circuit  
+Designed, simulated, and implemented a low-power analog ECG signal acquisition circuit. The system captures cardiac activity and clearly displays P-waves, QRS complexes, and T-waves with low noise and high signal fidelity, suitable for biomedical instrumentation applications.
+
+---
+
+### 2. IoT-Based Smart Door Security & Monitoring System (2025)
+🔗 https://github.com/milanbhat1/iot-door-security-system  
+Developed an ESP8266-based smart door security system featuring password-protected access, real-time presence detection, and instant Telegram alerts. The project integrates a web-based user interface with sensor-driven automation for remote monitoring.
+
+---
+
+### 3. FIFO Block Design using Verilog HDL (2025)
+🔗 https://github.com/milanbhat1/FIFO  
+Designed and simulated a synchronous FIFO architecture using Verilog HDL. The project emphasizes hazard-free data transfer, reliable read/write synchronization, and modular design using a single clock and enable-controlled operation.
+
+---
+
+### 4. Electronic Organ using Transistors (2024)
+🔗 https://github.com/milanbhat1/Electronic_Organ  
+Designed and implemented a compact electronic organ using discrete components such as transistors, resistors, and capacitors. Each key generates a distinct frequency corresponding to notes in the Indian classical music scale (Sa, Re, Ga, Ma, Pa, Dha, Ni).
+
+---
+
+### 5. Air Quality Monitoring System using STM32 (2025)
+🔗 https://github.com/milanbhat1/AirQualityMonitor-STM32  
+Built a cost-effective air quality monitoring device using the STM32F103C8T6 (Blue Pill) microcontroller and MQ-135 gas sensor. The system measures gas concentration in PPM, processes data via ADC, and displays real-time values on an OLED using I2C communication.
+
+---
+
+### 6. Battery Management System (BMS) using STM32 (2025)
+🔗 https://github.com/milanbhat1/BatteryManagementSystem-STM32  
+Developed a Battery Management System that monitors battery voltage and current, estimates State of Charge (SOC), and displays real-time parameters on an OLED. The system incorporates protection logic with audible and visual alerts for low SOC and abnormal current conditions.
+
+---
+
+## First Year Projects
+
+### 1. Plastic Segregation using Computer Vision (2024)
+🔗 https://github.com/milanbhat1/plastic-waste-detection-opencv  
+Implemented a computer vision-based plastic waste detection and classification system using YOLO, OpenCV, and Python. The system performs real-time object detection to assist in automated waste segregation.
+
+---
+
+### 2. PARK-IT – Smart Parking Management Application (2023)
+🔗 https://github.com/milanbhat1/PARK-IT  
+Designed a smart parking management application with a focus on intuitive UI/UX. Using Figma, the system enables users to locate, reserve, and navigate to available parking spaces in real time, with smooth check-in/check-out flow and integrated digital payment concepts.
+
+---
