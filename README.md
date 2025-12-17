@@ -4,6 +4,22 @@ This repository consolidates all my **undergraduate engineering projects**, span
 
 ---
 
+## Third Year Projects
+
+### 1. Automatic Survey Machine (2025) - MINOR PROJECT
+🔗 https://github.com/milanbhat1/automatic-survey-machine  
+Developed a low-cost autonomous survey robot integrating ultrasonic-based obstacle detection, DC motor control, and real-time gyroscope data acquisition. The system visualizes terrain orientation through a live web dashboard using WebSockets and Plotly, enabling real-time motion and slope analysis.
+
+---
+
+### 2. QAM Modulation and Demodulation using ESP32 (2025)
+🔗 https://github.com/milanbhat1/qam-modulation-esp32  
+Implemented a 16-QAM digital communication system using two ESP32 microcontrollers. The project performs bit-to-symbol mapping, I–Q based modulation, wireless transmission using ESP-NOW, and nearest-neighbor demodulation at the receiver, providing a practical realization of communication system theory.
+
+---
+
+---
+
 ## Second Year Projects
 
 ### 1. Cardio Track – Low Power ECG Signal Acquisition System (2025)
@@ -53,5 +69,3 @@ Implemented a computer vision-based plastic waste detection and classification s
 ### 2. PARK-IT – Smart Parking Management Application (2023)
 🔗 https://github.com/milanbhat1/PARK-IT  
 Designed a smart parking management application with a focus on intuitive UI/UX. Using Figma, the system enables users to locate, reserve, and navigate to available parking spaces in real time, with smooth check-in/check-out flow and integrated digital payment concepts.
-
----
